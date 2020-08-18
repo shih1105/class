@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="path/to/style.css"/>
+    <style>
+        body{
+            display: grid;
+            justify-content:center;
+            background-color:rgba(195, 227, 240, 0.808);
+            background-repeat: no-repeat;
+            background-attachment: scroll;    
+        }
+
+        header{
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            vertical-align:top;
+            font-size:20px;
+        }
+
+
+        article{
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: 150px;
+        }
+
+
+        table{
+            justify-content:center;
+            border-color: darkblue;
+            border-style:solid;
+            border-width: 3px;
+            border-radius: 10px;
+            
+        }
+        table td{
+            border-radius: 5px;
+            text-align:center;
+        }
+
+
+        footer{
+            font-weight: 900;
+            justify-content:flex-end;
+            font-size: 20px;
+            }
+    </style>
+</head>
+
+<body>
+    <header>
+    <p>姓名：陳詩謹</p>
+    <p>座號：9</p>
+    </header>
+
+    
+    <article>
+        <img src="逢甲大學.jpg" alt="01" style=height:150px;>
+        <img src="學校.jpg" alt="02" style=height:150px;>
+    </article>
+
+
+    <table border="1">
+        <tr>
+            <td>科目代碼</td>
+            <td>班級</td>
+            <td>科目名稱</td>
+        </tr>
+        <tr>
+            <td>2020</td>
+            <td>軟體設計</td>
+            <td>影像處理</td>
+        </tr>
+        <tr>
+            <td>2021</td>
+            <td>軟體設計</td>
+            <td>網路安全</td>
+        </tr>
+        <tr>
+            <td>2022</td>
+            <td>軟體設計</td>
+            <td>物聯網技術</td>
+        </tr>
+        <tr>
+            <td>2023</td>
+            <td>軟體設計</td>
+            <td>資料庫</td>
+        </tr>
+        <tr>
+            <td>2024</td>
+            <td>軟體設計</td>
+            <td>人工智慧</td>
+        </tr>
+    </table>
+    
+    <p></p>
+
+    <caption text-align="center">產業尖兵 課表</caption>
+    <table border="1">
+        <tr>
+            <td></td>
+            <td>星期一</td>
+            <td>星期二</td>
+            <td>星期三</td>
+            <td>星期四</td>
+            <td>星期五</td>
+        </tr>
+        <tr>
+            <td>09:10</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+            <td>軟體工程專題</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+        </tr>
+        <tr>
+            <td>10:10</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+            <td>軟體工程專題</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+        </tr>
+        <tr>
+            <td>11:10</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+            <td>軟體工程專題</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+        </tr>
+        <tr>
+            <td>12:10</td>
+            <td style=font-size:2rem  colspan="5">午休</td>
+        </tr>
+        <tr>
+            <td>13:10</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+            <td>資訊概論</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+        </tr>
+        <tr>
+            <td>14:10</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+            <td>資訊概論</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+        </tr>
+        <tr>
+            <td>15:10</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+            <td>資訊概論</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+        </tr>
+        <tr>
+            <td>16:10</td>
+            <td colspan="5"></td>
+        </tr>
+    </table>
+
+    <footer>
+    <p class=grade>已選學分:30</p>
+    <u class=download>下載</u>
+    </footer>
+</body>
+</html>
