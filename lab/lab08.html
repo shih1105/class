@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="path/to/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <style>
+        body {
+            display: grid;
+            justify-content: center;
+            background-color: rgba(195, 227, 240, 0.808);
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+        }
+
+        header {
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            vertical-align: top;
+            font-size: 20px;
+        }
+
+
+        /* article{
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: 150px;
+        } */
+
+
+        table {
+            justify-content: center;
+            border-color: darkblue;
+            border-style: solid;
+            border-width: 3px;
+            border-radius: 10px;
+
+        }
+
+        table td {
+            border-radius: 5px;
+            text-align: center;
+        }
+
+
+        footer {
+            font-weight: 900;
+            justify-content: flex-end;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <article>
+        <img src="逢甲大學.jpg" alt="01" style=height:150px;>
+        <img src="學校.jpg" alt="02" style=height:150px;>
+        <article style="grid-template:1fr 2fr/150px"></article>
+    </article>
+
+    <p></p>
+
+    <header>
+        <i class="fab fa-android"></i>
+        <a>姓名：陳詩謹</a>
+    </header>
+
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <div class="input-group-text" id="btnGroupAddon">選課代碼</div>
+        </div>
+        <input type="text" class="form-control" placeholder="Input" aria-label="Input group example"
+            aria-describedby="btnGroupAddon">
+    </div>
+    </div>
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <div class="input-group-text" id="btnGroupAddon">科目名稱</div>
+        </div>
+        <input type="text" class="form-control" placeholder="Input" aria-label="Input group example"
+            aria-describedby="btnGroupAddon">
+    </div>
+    </div>
+
+
+    <table border="1">
+        <tr>
+            <td>科目代碼</td>
+            <td>班級</td>
+            <td>科目名稱</td>
+        </tr>
+        <tr>
+            <td><i class="fas fa-spinner fa-pulse"></i>2020</td>
+            <td>軟體設計</td>
+            <td>影像處理</td>
+        </tr>
+        <tr>
+            <td><i class="fas fa-spinner fa-pulse"></i>2021</td>
+            <td>軟體設計</td>
+            <td>網路安全</td>
+        </tr>
+        <tr>
+            <td><i class="fas fa-spinner fa-pulse"></i>2022</td>
+            <td>軟體設計</td>
+            <td>物聯網技術</td>
+        </tr>
+        <tr>
+            <td><i class="fas fa-spinner fa-pulse"></i>2023</td>
+            <td>軟體設計</td>
+            <td>資料庫</td>
+        </tr>
+        <tr>
+            <td><i class="fas fa-spinner fa-pulse"></i>2024</td>
+            <td>軟體設計</td>
+            <td>人工智慧</td>
+        </tr>
+    </table>
+
+    <p></p>
+
+    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups" style=justify-content:center;>
+        <div class="btn-group mr-2" role="group" aria-label="First group">
+            <button type="button" class="btn btn-secondary">1</button>
+            <button type="button" class="btn btn-secondary">2</button>
+            <button type="button" class="btn btn-secondary">3</button>
+            <button type="button" class="btn btn-secondary">4</button>
+            <button type="button" class="btn btn-secondary">5</button>
+            <button type="button" class="btn btn-secondary">6</button>
+        </div>
+    </div>
+
+    <p></p>
+
+    <caption text-align="center">產業尖兵 課表</caption>
+    <table border="1">
+        <tr>
+            <td></td>
+            <td>星期一</td>
+            <td>星期二</td>
+            <td>星期三</td>
+            <td>星期四</td>
+            <td>星期五</td>
+        </tr>
+        <tr>
+            <td>09:10</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+            <td>軟體工程專題</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+        </tr>
+        <tr>
+            <td>10:10</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+            <td>軟體工程專題</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+        </tr>
+        <tr>
+            <td>11:10</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+            <td>軟體工程專題</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+        </tr>
+        <tr>
+            <td>12:10</td>
+            <td style=font-size:2rem colspan="5">午休</td>
+        </tr>
+        <tr>
+            <td>13:10</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+            <td>資訊概論</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+        </tr>
+        <tr>
+            <td>14:10</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+            <td>資訊概論</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+        </tr>
+        <tr>
+            <td>15:10</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+            <td>資訊概論</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+        </tr>
+        <tr>
+            <td>16:10</td>
+            <td colspan="5"></td>
+        </tr>
+    </table>
+
+    <footer>
+        <p class=grade>已選學分:30</p>
+        <button type="button" class="btn btn-info"><i class="fas fa-arrow-alt-circle-down"></i>download</button>
+    </footer>
+
+    <p></p>
+    <p></p>
+    <p></p>
+
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Go!</button>
+    </form>
+
+
+    <link rel="stylesheet" href="=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</body>
+
+</html>
